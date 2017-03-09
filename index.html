@@ -3,8 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Card</title>
+    <script type="text/javascript" src="https://cdn.kustomerapp.com/card-js/latest/kustomer-card.min.js"></script>
   </head>
-  <body>
+  <script>
+    function kustomerInitialize(){
+      Kustomer.initialize(function(contextJSON){
+        console.log(contextJSON)
+      })
+    }
+  </script>
+  <body onLoad='kustomerInitialize()'>
     <h1>Context Card</h1>
     <p>A card that will show up in Kustomer's sidebar during conversations</p>
   </body>

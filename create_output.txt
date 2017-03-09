@@ -1,0 +1,25 @@
+{
+    "data": {
+        "type":"available_card",
+        "id":"58c1c42264fc54110082a459",
+        "attributes": {
+            "name": "sidebarcontextcard", "description": "A context card that will appear in the sidebar", "url": "https://pgaret.github.io/context-card-sidebar", "contexts": ["conversation", "customer"], "createdAt": "2017-03-09T21:07:46.119Z", "updatedAt": "2017-03-09T21:07:46.119Z"
+        }
+        ,
+        "relationships": {
+            "org": {
+                "links": {
+                    "self": "/v1/orgs/58b48e2b53052f11001a98d7"
+                }
+                ,
+                "data": {
+                    "type": "org", "id": "58b48e2b53052f11001a98d7"
+                }
+            }
+        }
+        ,
+        "links": {
+            "self": "/v1/cards/58c1c42264fc54110082a459"
+        }
+    }
+}
